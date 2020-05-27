@@ -46,8 +46,8 @@ tt=myTable1(dat=dat1, splitvar="sex",splitlabel ="Gender",
             Trace=F,                                 # Used for my editing
             pdec=2,                                  # Decimal place for p-values
             Test=F,                                  # Test statistic column to be included in table
-            latexoutput=T,                           # Whether to spit out tex file
-            exceloutput=F,exceloutputName ="ExxcelT1" , # Produce an excel file of Table 1
+            latexoutput=F,                           # Whether to spit out tex file
+            exceloutput=T,exceloutputName ="tablewithPvalues" , # Produce an excel file of Table 1
             showtable = F) 
 
 
