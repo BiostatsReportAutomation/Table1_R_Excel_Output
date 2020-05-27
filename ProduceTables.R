@@ -12,11 +12,11 @@ for(i in 1:length(x)){
 }
 
 #Bring in Data from github
-source()
+source("https://raw.githubusercontent.com/BiostatsReportAutomation/Table1_R_Excel_Output/master/baselinedata.csv")
 
 
 #Bring in myTable1 function from github
-source()
+source("https://raw.githubusercontent.com/BiostatsReportAutomation/Table1_R_Excel_Output/master/Table1Function.R")
 
 
 
